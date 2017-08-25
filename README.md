@@ -1,3 +1,8 @@
+## beego work
+    基于 [beego admin](https://github.com/beego/admin)后台管理系统重
+    后端使用 [easyUI](http://www.jeasyui.net/demo/380.html) jQuery EasyUI 1.4.4</br>
+    beego work前后分离框架
+
 ## 获取安装
     基于 [beego admin](https://github.com/beego/admin) 后台管理系统重
     beego work前后分离框架
@@ -12,7 +17,4 @@
 
 ## 前端
     只做了测试页面
-## beego work
-    基于 [beego admin](https://github.com/beego/admin)后台管理系统重
-    beego work前后分离框架
-    后端使用 [easyUI](http://www.jeasyui.net/demo/380.html) jQuery EasyUI 1.4.4</br>
+
