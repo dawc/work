@@ -1,7 +1,4 @@
-## beego work
-    基于 [beego admin](https://github.com/beego/admin)后台管理系统重</br>
-    beego work前后分离框架</br>
-    后端使用 [easyUI](http://www.jeasyui.net/demo/380.html) jQuery EasyUI 1.4.4</br>
+
   
 ## 获取安装
     切换目录到 GOPATH/src 目录下执行以下命令，就能看到work项目
@@ -13,3 +10,7 @@
 
 ## 前端
     只做了测试页面
+## beego work
+    基于 [beego admin](https://github.com/beego/admin)后台管理系统重
+    beego work前后分离框架
+    后端使用 [easyUI](http://www.jeasyui.net/demo/380.html) jQuery EasyUI 1.4.4</br>
