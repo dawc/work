@@ -1,5 +1,5 @@
 ## 获取安装
-    基于 [beego admin](https://github.com/beego/admin)后台管理系统重
+    基于 [beego admin](https://github.com/beego/admin) 后台管理系统重
     beego work前后分离框架
 
 ## 获取安装
