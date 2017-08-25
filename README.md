@@ -1,5 +1,5 @@
 ## beego work
-    基于 [beego admin](https://github.com/beego/admin)后台管理系统重
+    基于 [beego admin](https://github.com/beego/admin) 后台管理系统重,
     后端使用 [Jquery EasyUI中文网](http://www.jeasyui.net/demo/380.html) jQuery EasyUI 1.4.4</br>
     beego work前后分离框架
 
