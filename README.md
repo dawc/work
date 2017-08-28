@@ -22,10 +22,8 @@
 ## 功能截图
 - 管理员管理
 ![image](https://github.com/crazy-wolf/cms/blob/master/doc/img/user.png)
-![image](https://github.com/crazy-wolf/cms/blob/master/doc/img/adduser.png)
 - 管理员组管理
 ![image](https://github.com/crazy-wolf/cms/blob/master/doc/img/usergroup.png)
-![image](https://github.com/crazy-wolf/cms/blob/master/doc/img/addusergroup.png)
 - 权限管理
 ![image](https://github.com/crazy-wolf/cms/blob/master/doc/img/role.png)
 
