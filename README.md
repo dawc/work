@@ -20,6 +20,16 @@
     只做了测试页面
 
 ## 功能截图
+- 管理员管理
+![image](https://github.com/crazy-wolf/cms/blob/master/doc/img/user.png)
+![image](https://github.com/crazy-wolf/cms/blob/master/doc/img/adduser.png)
+- 管理员组管理
+![image](https://github.com/crazy-wolf/cms/blob/master/doc/img/usergroup.png)
+![image](https://github.com/crazy-wolf/cms/blob/master/doc/img/addusergroup.png)
+- 权限管理
+![image](https://github.com/crazy-wolf/cms/blob/master/doc/img/role.png)
+
+
 - 后台系统管理（节点管理，用户管理，分组管理，角色管理）
 ![image](https://github.com/dawc/work/tree/master/doc/img/admin.png) 
 
