@@ -21,11 +21,11 @@
 
 ## 功能截图
 - 管理员管理
-![image](https://github.com/crazy-wolf/cms/blob/master/doc/img/user.png)
+![image](https://github.com/dawc/work/tree/master/doc/img/admin.png)
 - 管理员组管理
-![image](https://github.com/crazy-wolf/cms/blob/master/doc/img/usergroup.png)
+![image](https://github.com/dawc/work/tree/master/doc/img/home.png)
 - 权限管理
-![image](https://github.com/crazy-wolf/cms/blob/master/doc/img/role.png)
+![image](https://github.com/dawc/work/tree/master/doc/img/themes.png)
 
 
 - 后台系统管理（节点管理，用户管理，分组管理，角色管理）
