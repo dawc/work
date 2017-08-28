@@ -21,7 +21,7 @@
 
 ## 功能截图
 - 管理员管理
-![image](https://github.com/dawc/work/tree/master/doc/img/admin.png)
+![image](https://github.com/dawc/work/blob/master/doc/img/admin.png)
 - 管理员组管理
 ![image](https://github.com/dawc/work/tree/master/doc/img/home.png)
 - 权限管理
