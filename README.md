@@ -32,10 +32,8 @@
 
 - 后台系统管理（节点管理，用户管理，分组管理，角色管理）
 ![image](https://github.com/dawc/work/tree/master/doc/img/admin.png) 
-
 - 前端页面
 ![image](https://github.com/dawc/work/tree/master/doc/img/home.png)
-
 - 主题
 ![image](https://github.com/dawc/work/tree/master/doc/img/themes.png)
 
