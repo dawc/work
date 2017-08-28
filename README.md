@@ -20,18 +20,9 @@
     只做了测试页面
 
 ## 功能截图
-- 管理员管理
-![image](https://github.com/dawc/work/blob/master/doc/img/admin.png)
-- 管理员组管理
-![image](https://github.com/dawc/work/tree/master/doc/img/home.png)
-- 权限管理
-![image](https://github.com/dawc/work/tree/master/doc/img/themes.png)
-
-
 - 后台系统管理（节点管理，用户管理，分组管理，角色管理）
-![image](https://github.com/dawc/work/tree/master/doc/img/admin.png) 
+![image](https://github.com/dawc/work/blob/master/doc/img/admin.png)
 - 前端页面
-![image](https://github.com/dawc/work/tree/master/doc/img/home.png)
+![image](https://github.com/dawc/work/blob/master/doc/img/home.png)
 - 主题
-![image](https://github.com/dawc/work/tree/master/doc/img/themes.png)
-
+![image](https://github.com/dawc/work/blob/master/doc/img/themes.png)
