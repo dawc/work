@@ -6,6 +6,7 @@
 ## 获取安装
     基于 [beego admin](https://github.com/beego/admin) 后台管理系统重构
     beego work前后分离框架
+    16个后台主题
 
 ## 获取安装
     切换目录到 GOPATH/src 目录下执行以下命令，就能看到work项目
@@ -17,4 +18,14 @@
 
 ## 前端
     只做了测试页面
+
+ ## 功能截图
+    后台系统管理（节点管理，用户管理，分组管理，角色管理）
+    ![image](https://github.com/dawc/work/tree/master/doc/img/admin.png)
+
+    前端页面
+    ![image](https://github.com/dawc/work/tree/master/doc/img/home.png)
+
+    主题
+    ![image](https://github.com/dawc/work/tree/master/doc/img/themes.png)
 
