@@ -1,82 +1,67 @@
 <!DOCTYPE html>
-
 <html>
-  	<head>
-    	<title>Beego</title>
-    	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	
-		<style type="text/css">
-			body {
-				margin: 0px;
-				font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-				font-size: 14px;
-				line-height: 20px;
-				color: rgb(51, 51, 51);
-				background-color: rgb(255, 255, 255);
-			}
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>beego work</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        html {
+            height: 100%;
+            width: 100%;
+        }
+        a{
+            text-decoration: none;
+        }
+        body {
+            background-image: url(static/img/ripples/bbj.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 100%;
+            text-align: center;
+            position: relative;
+            width: 100%;
+        }
+        body:before {
+            content: '';
+            display: inline-block;
+            vertical-align: middle;
+            height: 100%;
+            width: 100%;
+        }
+        .main {
+            position: absolute;
+            left: 50%;
+            top: 30%;
+            width: 467px;
+            height: 370px;
+            margin-left: -233.5px;
+            color:#FFF;
+        }
 
-			.hero-unit {
-				padding: 60px;
-				margin-bottom: 30px;
-				border-radius: 6px 6px 6px 6px;
-			}
+    </style>
 
-			.container {
-				width: 940px;
-				margin-right: auto;
-				margin-left: auto;
-			}
+</head>
 
-			.row {
-				margin-left: -20px;
-			}
+<body>
 
-			h1 {
-				margin: 10px 0px;
-				font-family: inherit;
-				font-weight: bold;
-				text-rendering: optimizelegibility;
-			}
+<div class="main"><h1>Welcome to Beego!</h1></div>
+<script src="static/js/ripples/jquery-2.0.3.min.js"></script>
+<script src="static/js/ripples/jquery.ripples.js"></script>
+<script>
+    $(document).ready(function () {
+        $('body').ripples({
+            resolution: 512,
+            dropRadius: 50, //px
+            perturbance: 0.01
+        });
+    });
+</script>
 
-			.hero-unit h1 {
-				margin-bottom: 0px;
-				font-size: 60px;
-				line-height: 1;
-				letter-spacing: -1px;
-				color: inherit;
-			}
+</body>
 
-			.description {
-				padding-top: 5px;
-				padding-left: 5px;
-				font-size: 18px;
-				font-weight: 200;
-				line-height: 30px;
-				color: inherit;
-			}
-
-			p {
-				margin: 0px 0px 10px;
-			}
-		</style>
-	</head>
-  	
-  	<body>
-  		<header class="hero-unit">
-			<div class="container">
-			<div class="row">
-			  <div class="hero-text">
-			    <h1>Welcome to Beego!</h1>
-			    <p class="description">
-			    	Beego is a simple & powerful Go web framework which is inspired by tornado and sinatra.
-			    <br />
-			    	Official website: <a href="http://{{.Website}}">{{.Website}}</a>
-			    <br />
-			    	Contact me: {{.Email}}
-			    </p>
-			  </div>
-			</div>
-			</div>
-		</header>
-	</body>
 </html>
