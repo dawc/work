@@ -10,7 +10,7 @@
 
 ## 获取安装
     切换目录到 GOPATH/src 目录下执行以下命令，就能看到work项目
-    $ git clone github.com/beego/beeweb.git
+    $ git clone https://github.com/dawc/work.git
 
 ## 数据库文件
     doc 目录下的 beego.sql 是数据库文件
