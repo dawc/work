@@ -18,7 +18,9 @@
 
 ## 后端
     后台地址：http://work.jishuchi.com/manage/admin
-    测试账号：demo 密码：demowork
+    测试账号：demo 密码：（进群获取密码）
+
+## 技术讨论群（530285550）
 
 ## 前端
     只做了测试页面
