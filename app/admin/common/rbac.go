@@ -19,6 +19,7 @@ func AccessRegister() {
 		var accesslist map[string]bool
 		if user_auth_type > 0 {
 			params := strings.Split(strings.ToLower(strings.Split(ctx.Request.RequestURI, "?")[0]), "/")
+			fmt.Println(params)
 			if CheckAccess(params) {
 				uinfo := ctx.Input.Session("userinfo")
 				if uinfo == nil {
@@ -39,7 +40,7 @@ func AccessRegister() {
 
 					accesslist, _ = GetAccessList(uinfo.(m.User).Id)
 				}
-
+				fmt.Println(accesslist)
 				ret := AccessDecision(params, accesslist)
 				if !ret {
 					ctx.Output.JSON(&map[string]interface{}{"status": false, "info": "权限不足"}, true, false)
@@ -57,7 +58,7 @@ func CheckAccess(params []string) bool {
 		return false
 	}
 	for _, nap := range strings.Split(beego.AppConfig.String("not_auth_package"), ",") {
-		if params[1] == nap {
+		if params[3] == nap {
 			return false
 		}
 	}
@@ -67,7 +68,7 @@ func CheckAccess(params []string) bool {
 //To test whether permissions
 func AccessDecision(params []string, accesslist map[string]bool) bool {
 	if CheckAccess(params) {
-		s := fmt.Sprintf("%s/%s/%s", params[1], params[2], params[3])
+		s := fmt.Sprintf("%s/%s/%s", params[3], params[4], params[5])
 		if len(accesslist) < 1 {
 			return false
 		}
