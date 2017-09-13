@@ -72,7 +72,7 @@ CREATE TABLE `node` (
 /*Data for the table `node` */
 
 insert  into `node`(`id`,`title`,`name`,`level`,`pid`,`remark`,`status`,`group_id`) values 
-(1,'系统管理','manage/admin/rbac',1,0,'',2,1),
+(1,'系统管理','rbac',1,0,'',2,1),
 (2,'节点管理','node/index',2,1,'',2,1),
 (3,'node list','index',3,2,'',2,1),
 (4,'add or edit','AddAndEdit',3,2,'',2,1),

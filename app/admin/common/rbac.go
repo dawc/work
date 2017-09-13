@@ -16,8 +16,12 @@ import (
 func AccessRegister() {
 	var Check = func(ctx *context.Context) {
 		user_auth_type, _ := strconv.Atoi(beego.AppConfig.String("user_auth_type"))
+		admin_routers := beego.AppConfig.String("admin_routers")
 		var accesslist map[string]bool
 		if user_auth_type > 0 {
+			if(ctx.Request.RequestURI == admin_routers){
+				return
+			}
 			params := strings.Split(strings.ToLower(strings.Split(ctx.Request.RequestURI, "?")[0]), "/")
 			fmt.Println(params)
 			if CheckAccess(params) {
@@ -30,7 +34,6 @@ func AccessRegister() {
 				if uinfo.(m.User).Username == adminuser {
 					return
 				}
-
 				if user_auth_type == 1 {
 					listbysession := ctx.Input.Session("accesslist")
 					if listbysession != nil {
@@ -46,7 +49,6 @@ func AccessRegister() {
 					ctx.Output.JSON(&map[string]interface{}{"status": false, "info": "权限不足"}, true, false)
 				}
 			}
-
 		}
 	}
 	beego.InsertFilter("/*", beego.BeforeRouter, Check)
@@ -54,7 +56,7 @@ func AccessRegister() {
 
 //Determine whether need to verify
 func CheckAccess(params []string) bool {
-	if len(params) < 3 {
+	if len(params) <= 3 {
 		return false
 	}
 	for _, nap := range strings.Split(beego.AppConfig.String("not_auth_package"), ",") {
