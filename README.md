@@ -8,7 +8,6 @@
     beego work前后分离框架
     16个后台主题
 
-## 获取安装
     切换目录到 GOPATH/src 目录下执行以下命令，就能看到work项目
     $ git clone https://github.com/dawc/work.git
 
